@@ -9,7 +9,7 @@ const interpreter = {
     "<数字>": function (ast, ops) {
         var num = print(ast, ops);
         let ret = parseInt(num);
-        return parseInt(ret);
+        return ret;
     },
     "<整形>": function (ast, ops) {
         var num = print(ast, interpreter);
