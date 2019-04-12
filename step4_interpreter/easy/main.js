@@ -2,8 +2,8 @@
  * Created by ghy on 2019/4/11.
  */
 
-const ASTParse = require('./ASTParse'); // bnf 转换器
-const RuleParser = require('./RuleParser'); // ast 生成器
+const ASTParse = require('./ASTParse'); // ast 生成器
+const RuleParser = require('./RuleParser'); // bnf 转换器
 const ASTInterpreter = require('./ASTInterpreter');// 解释器
 
 const bnf = `

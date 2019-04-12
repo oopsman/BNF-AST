@@ -1,7 +1,6 @@
 /**
  * Created by ghy on 2019/4/11.
  */
-const ASTParse = require('./ASTParse');
 var RuleParser = require('./RuleParser');
 
 const bnf = `
